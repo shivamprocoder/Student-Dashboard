@@ -1,0 +1,9 @@
+import React from 'react';
+
+const Courses: React.FC = () => {
+    return (
+        <div className="page"><div className="page-heading"><div><p className="eyebrow">Academic record</p><h1>My courses<span className="accent">.</span></h1><p className="lede">Your active modules for the spring semester.</p></div><button className="primary-button">Download transcript</button></div><div className="course-toolbar"><span className="filter-active">All courses <b>4</b></span><span>In progress <b>3</b></span><span>Completed <b>1</b></span></div><section className="course-grid"><div className="course-card"><div className="course-top coral"><span>DS</span><small>IN PROGRESS</small></div><h2>Design Systems</h2><p>DES 302 &middot; Spring 2024</p><div className="course-progress"><span>68% complete</span><span>8 / 12 weeks</span><div className="mini-bar"><i style={{ width: '68%' }} /></div></div></div><div className="course-card"><div className="course-top blue"><span>DB</span><small>IN PROGRESS</small></div><h2>Database Systems</h2><p>CSC 241 &middot; Spring 2024</p><div className="course-progress"><span>52% complete</span><span>6 / 12 weeks</span><div className="mini-bar"><i style={{ width: '52%' }} /></div></div></div><div className="course-card"><div className="course-top olive"><span>UX</span><small>IN PROGRESS</small></div><h2>UX Research Methods</h2><p>RES 210 &middot; Spring 2024</p><div className="course-progress"><span>75% complete</span><span>9 / 12 weeks</span><div className="mini-bar"><i style={{ width: '75%' }} /></div></div></div></section></div>
+    );
+};
+
+export default Courses;
