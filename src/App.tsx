@@ -5,7 +5,7 @@ import './index.css';
 
 const App: React.FC = () => {
   return (
-    <Router>
+    <Router basename={import.meta.env.BASE_URL}>
       <Routes />
     </Router>
   );
